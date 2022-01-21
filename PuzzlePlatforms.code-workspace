@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "PuzzlePlatforms",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.forcedInclude": [
+			"${default}",
+			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\PuzzlePlatforms\\Definitions.PuzzlePlatforms.h",
+			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\PuzzlePlatformsEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PuzzlePlatforms (Debug)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatforms Win64 Debug Build",
+            "program": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatforms (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatforms Win64 DebugGame Build",
+            "program": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatforms (Development)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatforms Win64 Development Build",
+            "program": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatforms (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatforms Win64 Shipping Build",
+            "program": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatforms (Test)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatforms Win64 Test Build",
+            "program": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatformsEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatformsEditor Win64 Debug Build",
+            "program": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+            ],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatformsEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatformsEditor Win64 DebugGame Build",
+            "program": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+            ],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "PuzzlePlatformsEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "PuzzlePlatformsEditor Win64 Development Build",
+            "program": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+            ],
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+        }
+    ]
+}

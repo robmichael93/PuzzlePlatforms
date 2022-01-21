@@ -1,0 +1,37 @@
+[
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatforms.Build.cs",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatforms.cpp",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatforms.h",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatformsCharacter.cpp",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatformsCharacter.h",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatformsGameMode.cpp",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatformsGameMode.h",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    }
+]
