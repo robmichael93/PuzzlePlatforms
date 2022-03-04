@@ -33,5 +33,15 @@
         "file": "D:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\PuzzlePlatformsGameMode.h",
         "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
         "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "d:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\MovingPlatform.cpp",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "d:\\\\Users\\\\robmi\\\\Documents\\\\Unreal Projects\\\\PuzzlePlatforms\\\\Source\\\\PuzzlePlatforms\\\\MovingPlatform.h",
+        "command": "cl.exe @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_Default\\PuzzlePlatforms.210.rsp\"",
+        "directory": "C:\\Program Files (x86)\\Epic Games\\UE_4.27\\Engine\\Source"
     }
 ]
