@@ -2,276 +2,6 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "PuzzlePlatforms Win32 Debug Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Debug",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Debug Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Debug",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win32 Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Debug Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Debug",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 DebugGame Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"DebugGame",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"DebugGame",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win32 DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 DebugGame Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"DebugGame",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Development Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Development",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Development",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win32 Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Development Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Development",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win32 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Test Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Test",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Test",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win32 Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win32 Test Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win32",
-				"Test",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
 			"label": "PuzzlePlatforms Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
@@ -285,7 +15,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -305,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -322,7 +52,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -339,7 +69,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -359,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -376,7 +106,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -393,7 +123,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -413,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -430,61 +160,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win64 Shipping Build",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win64",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win64 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win64",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"PuzzlePlatforms Win64 Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
-			}
-		},
-		{
-			"label": "PuzzlePlatforms Win64 Shipping Clean",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
-			"args": [
-				"PuzzlePlatforms",
-				"Win64",
-				"Shipping",
-				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -501,7 +177,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -521,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -538,7 +214,331 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -555,7 +555,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -575,7 +575,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -592,7 +592,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -609,7 +609,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -629,7 +629,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -646,7 +646,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -663,7 +663,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -683,7 +683,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		},
 		{
@@ -700,7 +700,7 @@
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+				"cwd": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 			}
 		}
 	]

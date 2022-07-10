@@ -5,17 +5,12 @@
 			"path": "."
 		},
 		{
-			"name": "UE4",
-			"path": "C:\\Program Files (x86)\\Epic Games\\UE_4.27"
+			"name": "UE5",
+			"path": "D:\\Program Files (x86)\\Epic\\UE_5.0"
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off",
-		"C_Cpp.default.forcedInclude": [
-			"${default}",
-			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\PuzzlePlatforms\\Definitions.PuzzlePlatforms.h",
-			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\PuzzlePlatformsEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
-		]
+		"typescript.tsc.autoDetect": "off"
 	},
 	"extensions": {
 		"recommendations": [
