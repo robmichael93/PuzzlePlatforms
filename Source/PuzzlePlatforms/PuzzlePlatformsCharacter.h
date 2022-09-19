@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "MenuSystem/PopupMenuInterface.h"
 #include "PuzzlePlatformsCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -57,6 +58,9 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+	UFUNCTION()
+	void ShowHidePopupMenu();
 
 protected:
 	// APawn interface

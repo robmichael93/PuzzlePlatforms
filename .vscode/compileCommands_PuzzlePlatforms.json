@@ -1,67 +1,147 @@
 [
 	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyGameState.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyGameState.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyPlayerController.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\LobbyPlayerController.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\MainMenu.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\MainMenu.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\MenuInterface.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\MenuInterface.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\PopupMenu.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\PopupMenu.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\PopupMenuInterface.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\PopupMenuInterface.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\ServerRow.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MenuSystem\\ServerRow.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
+		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MovingPlatform.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\MovingPlatform.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PlatformTrigger.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PlatformTrigger.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.Build.cs",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsCharacter.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsCharacter.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsGameInstance.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsGameInstance.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsGameMode.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	},
 	{
 		"file": "D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatformsGameMode.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.203.rsp\"",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms\\PuzzlePlatforms.207.rsp\"",
 		"directory": "D:\\Program Files (x86)\\Epic\\UE_5.0\\Engine\\Source"
 	}
 ]

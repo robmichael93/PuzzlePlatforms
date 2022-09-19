@@ -10,12 +10,7 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off",
-		"C_Cpp.default.forcedInclude": [
-			"${default}",
-			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\UnrealEditor\\Development\\PuzzlePlatforms\\Definitions.PuzzlePlatforms.h",
-			"D:\\Users\\robmi\\Documents\\Unreal Projects\\PuzzlePlatforms\\Intermediate\\Build\\Win64\\PuzzlePlatformsEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
-		]
+		"typescript.tsc.autoDetect": "off"
 	},
 	"extensions": {
 		"recommendations": [

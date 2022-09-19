@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
+#include "GameFramework/GameMode.h"
 #include "PuzzlePlatformsGameMode.generated.h"
 
 UCLASS(minimalapi)
-class APuzzlePlatformsGameMode : public AGameModeBase
+class APuzzlePlatformsGameMode : public AGameMode
 {
 	GENERATED_BODY()
 
